@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basics</title>
+  <style>
+    body {
+    background-color: pink;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;        
+    display: flex;
+    flex-direction: column;
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+      font-size: 3em;
+      margin-top: 20px;
+    }
+
+    .shop-container {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .shop {
+      text-align: center;
+    }
+
+    .shop img {
+      width: 200px;
+      height: auto;
+      border: 2px solid white;
+      border-radius: 10px;
+    }
+
+    hr {
+    margin:  0;  
+    border: none;
+     border-top: 2px solid white;
+     margin-top: auto; 
+    }
+
+    footer {
+      text-align: right;
+      font-style: italic;
+      font-family: monospace;
+      margin: 0 20px;
+      color: white;
+     margin-top: auto;  
+    }
+  </style>
+</head>
+<body>
+  <h1>Doo@Shop</h1>
+  <div class="shop-container">
+    <div class="shop">
+      <img src="amazon.png" alt="Amazon">
+      <div><a href="https://www.amazon.com" target="_blank">Clik to Amazon</a></div>
+    </div>
+    <div class="shop">
+      <img src="ebay.jpg" alt="eBay">
+      <div><a href="https://www.ebay.com" target="_blank">Clik to eBay</a></div>
+    </div>
+  </div>
+  <hr>
+  <footer>
+    © nphaungy 2025
+  </footer>
+</body>
+</html>
