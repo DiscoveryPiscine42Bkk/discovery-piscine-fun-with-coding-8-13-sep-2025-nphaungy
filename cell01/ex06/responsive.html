@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tab Exercise</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    table {
+      width: 100%;
+      height: 100vh;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    td {
+      width: 50%;
+      text-align: center;
+      font-size: 3vw;
+      word-wrap: break-word;
+      border: 1px solid black; 
+    }
+
+    @media (max-width: 1000px) {
+      table {
+        display: table;
+        height: 100vh; 
+        width: 100%;
+      }
+      tr {
+        display: block;
+        height: 100%;
+      }
+      td {
+        display: block;
+        width: 100%;
+        height: 50vh; 
+        font-size: 6vw; 
+        box-sizing: border-box;
+      }
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <td style="background-color: aquamarine;">42 forever</td>
+      <td style="background-color: bisque;">pass pls</td>
+    </tr>
+  </table>
+</body>
+</html>
