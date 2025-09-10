@@ -1,0 +1,41 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.parallax {
+  height: 100vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2em;
+  text-shadow: 2px 2px 4px black;
+}
+
+.bg1 {
+  background-image: url("img1.jpeg");
+}
+
+.bg2 {
+  background-image: url("img2.jpeg"); 
+}
+
+.text-block {
+  background-color: black;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.caption span {
+  background-color: rgba(0,0,0,0.5); 
+  padding: 20px;
+  border-radius: 10px;
+}
