@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ex02bis - Calculator</title>
+  <link rel="stylesheet" href="calc.css">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <div class="calculator">
+    <form id="calcForm" class="calc-row">
+      <input type="text" id="leftOperand" placeholder="Enter first number" required>
+      <select id="operator" required>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+      </select>
+      <input type="text" id="rightOperand" placeholder="Enter second number" required>
+      <input type="submit" value="Try me!">
+    </form>
+  </div>
+  <script>
+    $(function() {
+      setInterval(function() {
+        alert("Please, use me...");
+      }, 30000);
+      $("#calcForm").on("submit", function(e) {
+        e.preventDefault();
+        const leftVal = $("#leftOperand").val().trim();
+        const rightVal = $("#rightOperand").val().trim();
+        const operator = $("#operator").val();
+        if (!/^\d+$/.test(leftVal) || !/^\d+$/.test(rightVal)) {
+          alert("Error :(");
+          console.log("Error: Invalid input - inputs must be positive integers >= 0");
+          return;
+        }
+        const left = parseInt(leftVal, 10);
+        const right = parseInt(rightVal, 10);
+        let result;
+        if ((operator === "/" || operator === "%") && right === 0) {
+          alert("It's over 9000!");
+          console.log("It's over 9000!");
+          return;
+        }
+        if (operator === "+") result = left + right;
+        if (operator === "-") result = left - right;
+        if (operator === "*") result = left * right;
+        if (operator === "/") result = left / right;
+        if (operator === "%") result = left % right;
+        alert(result);
+        console.log(result);
+      });
+    });
+  </script>
+</body>
+</html>
