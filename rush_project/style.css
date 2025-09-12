@@ -1,0 +1,424 @@
+.portfolio-simple {
+  background-color: #f9faff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.portfolio-simple .div {
+  background-color: var(--bg-gray);
+  width: 1444px;
+  height: 888px;
+  position: relative;
+}
+
+.portfolio-simple .footer-icons {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  position: absolute;
+  top: 714px;
+  left: 628px;
+}
+
+.portfolio-simple .icons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.portfolio-simple .img {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+.portfolio-simple .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "Nunito-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--font-medium-emphasis);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio-simple .overlap-group {
+  position: absolute;
+  width: 1444px;
+  height: 629px;
+  top: 0;
+  left: 0;
+}
+
+.portfolio-simple .image {
+  position: absolute;
+  width: 720px;
+  height: 629px;
+  top: 0;
+  left: 724px;
+  background-image: url(./img/yellow-bg.svg);
+  background-size: 100% 100%;
+}
+
+.portfolio-simple .image-2 {
+  position: absolute;
+  width: 720px;
+  height: 629px;
+  top: 0;
+  left: 0;
+}
+
+.portfolio-simple .header {
+  position: absolute;
+  width: 1444px;
+  height: 56px;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+.portfolio-simple .text-wrapper-2 {
+  position: absolute;
+  top: 11px;
+  left: 120px;
+  font-family: "Comfortaa-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--fonthigh-emphasis);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 32.4px;
+  white-space: nowrap;
+}
+
+.portfolio-simple .nav {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 48px;
+  position: absolute;
+  top: 14px;
+  left: 1032px;
+}
+
+.portfolio-simple .tab-default {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.portfolio-simple .sobre {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--fonthigh-emphasis);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.portfolio-simple .intro {
+  display: flex;
+  flex-direction: column;
+  width: 486px;
+  align-items: flex-start;
+  gap: 12px;
+  position: absolute;
+  top: 110px;
+  left: 120px;
+}
+
+.portfolio-simple .UI-UX-designer {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.09px;
+  font-family: "Nunito-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--brandblack);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio-simple .content {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.portfolio-simple .title {
+  position: relative;
+  width: 486px;
+  margin-top: -1.00px;
+  font-family: var(--title-h1-font-family);
+  font-weight: var(--title-h1-font-weight);
+  color: var(--fonthigh-emphasis);
+  font-size: var(--title-h1-font-size);
+  letter-spacing: var(--title-h1-letter-spacing);
+  line-height: var(--title-h1-line-height);
+  font-style: var(--title-h1-font-style);
+}
+
+.portfolio-simple .subheadline {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.portfolio-simple .text {
+  position: relative;
+  width: 486px;
+  margin-top: -1.00px;
+  font-family: "Nunito-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--font-medium-emphasis);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.portfolio-simple .buttons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.portfolio-simple .button-primary {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ), linear-gradient(0deg, rgba(37, 34, 27, 1) 0%, rgba(37, 34, 27, 1) 100%);
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 8px 24px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  background-color: var(--brandblack);
+}
+
+.portfolio-simple .text-2 {
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--fonthigh-emphasis);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.portfolio-simple .button-secondary {
+  border: 2px solid;
+  border-color: var(--bg-line);
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 8px 24px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 8px;
+}
+
+.portfolio-simple .text-3 {
+  margin-top: -2.00px;
+  position: relative;
+  width: fit-content;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--fonthigh-emphasis);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+/* Original CSS code should be injected here */
+
+.portfolio-simple {
+  background-color: var(--bg-gray);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  max-width: 1444px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 7.5rem;
+}
+
+.logo {
+  font-family: "Comfortaa-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--fonthigh-emphasis);
+  font-size: 18px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+.nav-link {
+  font-family: "Raleway-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--fonthigh-emphasis);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.intro {
+  width: 50%;
+  padding: 7rem 7.5rem;
+}
+
+.job-title {
+  font-family: "Nunito-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--brandblack);
+  font-size: 20px;
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  font-family: var(--title-h1-font-family);
+  font-weight: var(--title-h1-font-weight);
+  color: var(--fonthigh-emphasis);
+  font-size: var(--title-h1-font-size);
+  line-height: var(--title-h1-line-height);
+  margin-bottom: 2rem;
+}
+
+.description {
+  font-family: "Nunito-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--font-medium-emphasis);
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.button {
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button-primary {
+  background-color: var(--brandblack);
+  color: var(--bg-white);
+}
+
+.button-secondary {
+  border: 2px solid var(--bg-line);
+  color: var(--fonthigh-emphasis);
+}
+
+.hero-image {
+  width: 50%;
+  background-image: url(./img/yellow-bg.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.portrait {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.social-icons a {
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 48px;
+  height: 48px;
+}
+
+.copyright {
+  font-family: "Nunito-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--font-medium-emphasis);
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .nav ul {
+    margin-top: 1rem;
+  }
+
+  .intro,
+  .hero-image {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+}
